@@ -74,3 +74,10 @@ The app will be live at:
 ```terminal
 http://localhost:5173
 ```
+
+---
+
+### 💻 Live Preview
+
+Visit the URL below to preview the project:<br>
+## [Lime Wave](https://lime-wave.vercel.app/)
