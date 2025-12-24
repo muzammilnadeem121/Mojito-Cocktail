@@ -3,6 +3,7 @@ import './App.css'
 import { ScrollTrigger, SplitText } from 'gsap/all';
 import Navbar from './components/Navbar';
 import Hero from './components/hero';
+import Cocktails from './components/Cocktails';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -12,7 +13,7 @@ function App() {
     <main>
       <Navbar></Navbar>
       <Hero></Hero>
-      <div className="min-h-screen"></div>
+      <Cocktails></Cocktails>
     </main> 
   );
 }
