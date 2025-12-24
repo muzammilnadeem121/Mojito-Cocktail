@@ -9,7 +9,8 @@ const Navbar = () => {
             {
                 scrollTrigger: {
                     trigger: 'nav',
-                    start: "bottom top"
+                    start: "bottom top",
+                    scrub: true
                 }
             }
         );
@@ -19,8 +20,8 @@ const Navbar = () => {
             backgroundColor: "transparent",
         },
         {
-            backgroundColor: "#000000",
-            backgroundFilter: "blur(10px)",
+            backgroundColor: "rgba(0, 0, 0, 0.35)",
+            backdropFilter: "blur(10px)",
             duration: 1,
             ease: "power1.inOut"
         }
